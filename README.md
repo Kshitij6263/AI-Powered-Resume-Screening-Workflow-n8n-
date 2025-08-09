@@ -47,8 +47,7 @@ H -.error.-> J[Slack Alert]
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/your-username/resume-screening-n8n.git
-cd resume-screening-n8n
+git clone https://github.com/Kshitij6263/AI-Powered-Resume-Screening-Workflow-n8n-
 ```
 
 ### 2️⃣ Import the Workflow into n8n
