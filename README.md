@@ -1,11 +1,11 @@
-# AI-Powered-Resume-Screening-Workflow-n8n-
+# AI Powered Resume Screening Workflow n8n
 
 An **end-to-end automated resume screening system** built with **n8n**, **LangChain**, **Cohere embeddings**, and **Weaviate** to intelligently process, store, and evaluate resumes.  
 This workflow uses **RAG (Retrieval-Augmented Generation)** with **OpenAI GPT** to provide AI-driven candidate shortlisting recommendations, while logging results to **Google Sheets** and sending **real-time error alerts** via **Slack**.
 
 ---
 
-## 🚀 Features
+## Features
 - **High-Volume Processing** – Handles **500+ resumes/day** with automated ingestion via Webhooks.  
 - **Semantic Search & Matching** – Cohere embeddings + Weaviate vector database for **95% accurate matching**.  
 - **Context-Aware Evaluation** – Maintains **100% conversation context** using LangChain memory buffers.  
@@ -14,7 +14,7 @@ This workflow uses **RAG (Retrieval-Augmented Generation)** with **OpenAI GPT** 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **n8n** – Workflow automation engine  
 - **LangChain** – AI workflow orchestration  
 - **Cohere API** – Embedding generation  
@@ -25,7 +25,7 @@ This workflow uses **RAG (Retrieval-Augmented Generation)** with **OpenAI GPT** 
 
 ---
 
-## 📦 Workflow Overview
+## Workflow Overview
 
 ```mermaid
 graph LR
@@ -73,15 +73,15 @@ Set them in **n8n → Credentials**.
 
 ---
 
-## 📊 Example Output
+## Example Output
 | Candidate Name | Match Score | Status     |
 |----------------|------------|------------|
-| John Doe       | 0.92       | Shortlisted|
-| Jane Smith     | 0.87       | Rejected   |
+| Raj sharma     | 0.92       | Shortlisted|
+| Mayank seth    | 0.87       | Rejected   |
 
 ---
 
-## 📈 Results
+## Results
 - **500+ resumes/day** processed  
 - **95% accuracy** in semantic matching  
 - **80% reduction** in manual screening time  
@@ -89,8 +89,4 @@ Set them in **n8n → Credentials**.
 
 ---
 
-## 📬 Contact
-For questions or contributions:  
-**Author:** _Your Name_  
-**Email:** _your.email@example.com_  
-**LinkedIn:** [Your Profile](https://linkedin.com/in/your-profile)
+
